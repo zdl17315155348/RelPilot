@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPGP实体关系抽取Demo</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-copy">
+        <span class="eyebrow">RPGP Entity Relation Extraction</span>
+        <h1>基于关系预判与全局指针的实体关系联合抽取系统</h1>
+        <p>面向中文文本的可交互抽取原型，展示“先判关系、后抽实体”的两阶段解码流程。</p>
+      </div>
+      <div class="pipeline" aria-label="RPGP流程">
+        <span>关系预判</span>
+        <strong>→</strong>
+        <span>跨度定位</span>
+        <strong>→</strong>
+        <span>三元组输出</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel input-panel">
+      <div class="panel-title">
+        <div>
+          <span class="section-label">Input</span>
+          <h2>输入文本</h2>
+        </div>
+        <button id="extract-button" type="button">抽取</button>
+      </div>
+      <textarea id="text-input" spellcheck="false"></textarea>
+      <div class="hint-row">
+        <span>支持企业、人物、科研文本等短句演示</span>
+        <span>主体蓝色，客体橙色</span>
+      </div>
+      <h3>演示示例</h3>
+      <div id="examples" class="examples"></div>
+    </section>
+
+    <section class="panel result-panel">
+      <div class="panel-title">
+        <div>
+          <span class="section-label">Output</span>
+          <h2>抽取结果</h2>
+        </div>
+        <button id="copy-json" type="button" class="secondary">复制JSON</button>
+      </div>
+      <div class="metrics">
+        <span id="relation-count">预判关系：0</span>
+        <span id="triple-count">三元组：0</span>
+        <span id="reduction-count">跳过解码：0/0</span>
+        <span id="reduction-ratio">节省比例：0%</span>
+      </div>
+      <h3>关系预判</h3>
+      <div id="relations" class="relations"></div>
+      <h3>解码范围对比</h3>
+      <div class="decode-compare" aria-label="标准解码和RPGP解码范围对比">
+        <div>
+          <span class="compare-label">标准GlobalPointer</span>
+          <strong id="baseline-relations">0</strong>
+          <span>个关系全部解码</span>
+        </div>
+        <div>
+          <span class="compare-label">RPGP</span>
+          <strong id="rpgp-relations">0</strong>
+          <span>个关系进入解码</span>
+        </div>
+        <div>
+          <span class="compare-label">跳过</span>
+          <strong id="skipped-relations">0</strong>
+          <span>个无关关系</span>
+        </div>
+      </div>
+      <h3>原文标注</h3>
+      <div id="highlighted-text" class="highlighted-text"></div>
+      <h3>三元组表格</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>主体</th>
+            <th>关系</th>
+            <th>客体</th>
+            <th>置信度</th>
+          </tr>
+        </thead>
+        <tbody id="triples-body"></tbody>
+      </table>
+      <h3>JSON结果</h3>
+      <pre id="json-output"></pre>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

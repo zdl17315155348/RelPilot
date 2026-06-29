@@ -1,0 +1,536 @@
+[
+  {
+    "text": "百度公司由李彦宏于2000年在北京创立。",
+    "triples": [
+      {
+        "subject": "百度公司",
+        "relation": "创始人",
+        "object": "李彦宏"
+      },
+      {
+        "subject": "百度公司",
+        "relation": "创立时间",
+        "object": "2000年"
+      },
+      {
+        "subject": "百度公司",
+        "relation": "创立地点",
+        "object": "北京"
+      }
+    ]
+  },
+  {
+    "text": "阿里巴巴公司由马云于1999年在杭州创立。",
+    "triples": [
+      {
+        "subject": "阿里巴巴公司",
+        "relation": "创始人",
+        "object": "马云"
+      },
+      {
+        "subject": "阿里巴巴公司",
+        "relation": "创立时间",
+        "object": "1999年"
+      },
+      {
+        "subject": "阿里巴巴公司",
+        "relation": "创立地点",
+        "object": "杭州"
+      }
+    ]
+  },
+  {
+    "text": "腾讯公司由马化腾于1998年在深圳创立。",
+    "triples": [
+      {
+        "subject": "腾讯公司",
+        "relation": "创始人",
+        "object": "马化腾"
+      },
+      {
+        "subject": "腾讯公司",
+        "relation": "创立时间",
+        "object": "1998年"
+      },
+      {
+        "subject": "腾讯公司",
+        "relation": "创立地点",
+        "object": "深圳"
+      }
+    ]
+  },
+  {
+    "text": "北京大学和清华大学都是中国顶尖的高等学府。",
+    "triples": [
+      {
+        "subject": "北京大学",
+        "relation": "位于",
+        "object": "中国"
+      },
+      {
+        "subject": "清华大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "复旦大学和浙江大学都是中国重要的研究型大学。",
+    "triples": [
+      {
+        "subject": "复旦大学",
+        "relation": "位于",
+        "object": "中国"
+      },
+      {
+        "subject": "浙江大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "RPGP方法改进了GlobalPointer算法，并在DuIE数据集上进行性能评估。",
+    "triples": [
+      {
+        "subject": "RPGP方法",
+        "relation": "改进算法",
+        "object": "GlobalPointer算法"
+      },
+      {
+        "subject": "RPGP方法",
+        "relation": "性能评估",
+        "object": "DuIE数据集"
+      }
+    ]
+  },
+  {
+    "text": "REGP方法改进了CasRel算法，并在SciRE数据集上进行性能评估。",
+    "triples": [
+      {
+        "subject": "REGP方法",
+        "relation": "改进算法",
+        "object": "CasRel算法"
+      },
+      {
+        "subject": "REGP方法",
+        "relation": "性能评估",
+        "object": "SciRE数据集"
+      }
+    ]
+  },
+  {
+    "text": "Transformer模型由Vaswani等人在2017年提出，广泛应用于自然语言处理任务。",
+    "triples": [
+      {
+        "subject": "Transformer模型",
+        "relation": "提出方法",
+        "object": "Vaswani等人"
+      }
+    ]
+  },
+  {
+    "text": "BERT模型由Devlin等人在2018年提出，推动了预训练语言模型的发展。",
+    "triples": [
+      {
+        "subject": "BERT模型",
+        "relation": "提出方法",
+        "object": "Devlin等人"
+      }
+    ]
+  },
+  {
+    "text": "钱学森出生于上海，毕业于交通大学。",
+    "triples": [
+      {
+        "subject": "钱学森",
+        "relation": "出生地",
+        "object": "上海"
+      },
+      {
+        "subject": "钱学森",
+        "relation": "毕业院校",
+        "object": "交通大学"
+      }
+    ]
+  },
+  {
+    "text": "李四光出生于湖北，毕业于北京大学。",
+    "triples": [
+      {
+        "subject": "李四光",
+        "relation": "出生地",
+        "object": "湖北"
+      },
+      {
+        "subject": "李四光",
+        "relation": "毕业院校",
+        "object": "北京大学"
+      }
+    ]
+  },
+  {
+    "text": "这是一段普通说明文本，没有包含项目预定义关系。",
+    "triples": []
+  },
+  {
+    "text": "今天的天气晴朗，适合进行系统演示。",
+    "triples": []
+  },
+  {
+    "text": "自然语言处理课程要求完成一个可以现场展示的原型系统。",
+    "triples": []
+  },
+  {
+    "text": "知识图谱通常由大量实体、关系和属性构成。",
+    "triples": []
+  },
+  {
+    "text": "小米公司由雷军创立",
+    "triples": [
+      {
+        "subject": "小米公司",
+        "relation": "创始人",
+        "object": "雷军"
+      }
+    ]
+  },
+  {
+    "text": "京东公司由刘强东创立",
+    "triples": [
+      {
+        "subject": "京东公司",
+        "relation": "创始人",
+        "object": "刘强东"
+      }
+    ]
+  },
+  {
+    "text": "百度公司在北京创立",
+    "triples": [
+      {
+        "subject": "百度公司",
+        "relation": "创立地点",
+        "object": "北京"
+      }
+    ]
+  },
+  {
+    "text": "腾讯公司在深圳创立",
+    "triples": [
+      {
+        "subject": "腾讯公司",
+        "relation": "创立地点",
+        "object": "深圳"
+      }
+    ]
+  },
+  {
+    "text": "BERT模型由Devlin提出",
+    "triples": [
+      {
+        "subject": "BERT模型",
+        "relation": "提出方法",
+        "object": "Devlin"
+      }
+    ]
+  },
+  {
+    "text": "GPT模型由OpenAI提出",
+    "triples": [
+      {
+        "subject": "GPT模型",
+        "relation": "提出方法",
+        "object": "OpenAI"
+      }
+    ]
+  },
+  {
+    "text": "复旦大学位于中国",
+    "triples": [
+      {
+        "subject": "复旦大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "浙江大学位于中国",
+    "triples": [
+      {
+        "subject": "浙江大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "钱学森出生于上海",
+    "triples": [
+      {
+        "subject": "钱学森",
+        "relation": "出生地",
+        "object": "上海"
+      }
+    ]
+  },
+  {
+    "text": "今天天气不错",
+    "triples": []
+  },
+  {
+    "text": "我们展示系统",
+    "triples": []
+  },
+  {
+    "text": "钱学森毕业于交通大学",
+    "triples": [
+      {
+        "subject": "钱学森",
+        "relation": "毕业院校",
+        "object": "交通大学"
+      }
+    ]
+  },
+  {
+    "text": "李四光毕业于北京大学",
+    "triples": [
+      {
+        "subject": "李四光",
+        "relation": "毕业院校",
+        "object": "北京大学"
+      }
+    ]
+  },
+  {
+    "text": "鲁迅出生于浙江",
+    "triples": [
+      {
+        "subject": "鲁迅",
+        "relation": "出生地",
+        "object": "浙江"
+      }
+    ]
+  },
+  {
+    "text": "袁隆平出生于北京",
+    "triples": [
+      {
+        "subject": "袁隆平",
+        "relation": "出生地",
+        "object": "北京"
+      }
+    ]
+  },
+  {
+    "text": "张三毕业于复旦大学",
+    "triples": [
+      {
+        "subject": "张三",
+        "relation": "毕业院校",
+        "object": "复旦大学"
+      }
+    ]
+  },
+  {
+    "text": "小米公司由雷军创立",
+    "triples": [
+      {
+        "subject": "小米公司",
+        "relation": "创始人",
+        "object": "雷军"
+      }
+    ]
+  },
+  {
+    "text": "百度公司在北京创立",
+    "triples": [
+      {
+        "subject": "百度公司",
+        "relation": "创立地点",
+        "object": "北京"
+      }
+    ]
+  },
+  {
+    "text": "百度公司于2000年创立",
+    "triples": [
+      {
+        "subject": "百度公司",
+        "relation": "创立时间",
+        "object": "2000年"
+      }
+    ]
+  },
+  {
+    "text": "BERT模型由Devlin提出",
+    "triples": [
+      {
+        "subject": "BERT模型",
+        "relation": "提出方法",
+        "object": "Devlin"
+      }
+    ]
+  },
+  {
+    "text": "复旦大学位于中国",
+    "triples": [
+      {
+        "subject": "复旦大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "李四光出生于湖北",
+    "triples": [
+      {
+        "subject": "李四光",
+        "relation": "出生地",
+        "object": "湖北"
+      }
+    ]
+  },
+  {
+    "text": "钱学森毕业于交通大学",
+    "triples": [
+      {
+        "subject": "钱学森",
+        "relation": "毕业院校",
+        "object": "交通大学"
+      }
+    ]
+  },
+  {
+    "text": "百度公司由李彦宏创立",
+    "triples": [
+      {
+        "subject": "百度公司",
+        "relation": "创始人",
+        "object": "李彦宏"
+      }
+    ]
+  },
+  {
+    "text": "小米公司在北京创立",
+    "triples": [
+      {
+        "subject": "小米公司",
+        "relation": "创立地点",
+        "object": "北京"
+      }
+    ]
+  },
+  {
+    "text": "小米公司于2010年创立",
+    "triples": [
+      {
+        "subject": "小米公司",
+        "relation": "创立时间",
+        "object": "2010年"
+      }
+    ]
+  },
+  {
+    "text": "北京大学位于中国",
+    "triples": [
+      {
+        "subject": "北京大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "钱学森出生于上海",
+    "triples": [
+      {
+        "subject": "钱学森",
+        "relation": "出生地",
+        "object": "上海"
+      }
+    ]
+  },
+  {
+    "text": "鲁迅毕业于仙台医专",
+    "triples": [
+      {
+        "subject": "鲁迅",
+        "relation": "毕业院校",
+        "object": "仙台医专"
+      }
+    ]
+  },
+  {
+    "text": "阿里巴巴由马云创立",
+    "triples": [
+      {
+        "subject": "阿里巴巴",
+        "relation": "创始人",
+        "object": "马云"
+      }
+    ]
+  },
+  {
+    "text": "阿里巴巴在杭州创立",
+    "triples": [
+      {
+        "subject": "阿里巴巴",
+        "relation": "创立地点",
+        "object": "杭州"
+      }
+    ]
+  },
+  {
+    "text": "阿里巴巴于1999年创立",
+    "triples": [
+      {
+        "subject": "阿里巴巴",
+        "relation": "创立时间",
+        "object": "1999年"
+      }
+    ]
+  },
+  {
+    "text": "RPGP方法由本文提出",
+    "triples": [
+      {
+        "subject": "RPGP方法",
+        "relation": "提出方法",
+        "object": "本文"
+      }
+    ]
+  },
+  {
+    "text": "清华大学位于中国",
+    "triples": [
+      {
+        "subject": "清华大学",
+        "relation": "位于",
+        "object": "中国"
+      }
+    ]
+  },
+  {
+    "text": "鲁迅出生于浙江",
+    "triples": [
+      {
+        "subject": "鲁迅",
+        "relation": "出生地",
+        "object": "浙江"
+      }
+    ]
+  },
+  {
+    "text": "李四光毕业于伯明翰大学",
+    "triples": [
+      {
+        "subject": "李四光",
+        "relation": "毕业院校",
+        "object": "伯明翰大学"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Runtime logs
+logs/
+*.log
+
+# Local test files
+tests/
+
+# Local temporary outputs
+tmp/
+temp/
+*.tmp
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+DEMO_SPEECH.txt
